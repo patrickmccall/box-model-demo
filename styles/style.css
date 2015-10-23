@@ -18,33 +18,54 @@
 }*/
 
 h1:hover {
-    color: blanchedalmond;
+  color: blanchedalmond;
 }
 
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 header {
-    width: 100%;
-    margin: auto;
-    /*border: 2px solid black;*/
-    /*position: center;*/
-    text-align: center;
+  width: 100%;
+  margin: auto;
+  /*border: 2px solid black;*/
+  /*position: center;*/
+  text-align: center;
 }
 
 article {
-    width: 80%;
-    margin: auto;
-    /*border: 2px solid black;*/
-    /*position: center;*/
-    text-align: center;
+  width: 80%;
+  margin: auto;
+  /*border: 2px solid black;*/
+  /*position: center;*/
+  text-align: center;
 }
 
 p::first-letter {
-    font-size: 1.5em;
+  font-size: 1em;
 }
 
 footer {
-    border: 2px solid black;
+  border: 2px solid black;
+}
+
+header img {
+  width: 33%;
+}
+/*more specific takes precedent*/
+a {
+  text-decoration: none;
+}
+
+nav a {
+  text-decoration: line-through;
+}
+
+/*more recent takes precedent*/
+p {
+  color: magenta;
+}
+
+p {
+  color: red;
 }
