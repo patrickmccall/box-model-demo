@@ -1,0 +1,50 @@
+/*.highlight {
+    color: orange;
+}*/
+/*No space mcans this applies to something*/
+/*aside.highlight {
+    background-color: black;
+}*/
+/*#homepage{
+    width:80%;
+    margin: auto;
+    border:2px solid black;
+
+}*/
+
+/*a:hover{
+    color:red;
+    font-size:2em;
+}*/
+
+h1:hover {
+    color: blanchedalmond;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    /*border: 2px solid black;*/
+    /*position: center;*/
+    text-align: center;
+}
+
+article {
+    width: 80%;
+    margin: auto;
+    /*border: 2px solid black;*/
+    /*position: center;*/
+    text-align: center;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+}
+
+footer {
+    border: 2px solid black;
+}
