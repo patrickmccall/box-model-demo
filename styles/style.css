@@ -1,71 +1,35 @@
-/*.highlight {
-    color: orange;
-}*/
-/*No space mcans this applies to something*/
-/*aside.highlight {
-    background-color: black;
-}*/
-/*#homepage{
-    width:80%;
-    margin: auto;
-    border:2px solid black;
-
-}*/
-
-/*a:hover{
-    color:red;
-    font-size:2em;
-}*/
-
-h1:hover {
-  color: blanchedalmond;
+* {
+  box-sizing: border-box;
 }
 
-a:visited {
-  text-decoration: none;
-}
-
-header {
-  width: 100%;
-  margin: auto;
-  /*border: 2px solid black;*/
-  /*position: center;*/
-  text-align: center;
-}
-
-article {
-  width: 80%;
-  margin: auto;
-  /*border: 2px solid black;*/
-  /*position: center;*/
-  text-align: center;
-}
-
-p::first-letter {
-  font-size: 1em;
-}
-
-footer {
+article p {
+  padding: 3rem;
+  background-color: orange;
+  margin: 1rem;
   border: 2px solid black;
 }
 
+h2 {
+  border-bottom: 2px solid gray;
+  padding-bottom: 1rem;
+  border-bottom-left-radius: 10px;
+}
+
+figure {
+  border: 2px solid gray;
+  padding: 3rem;
+}
+
 header img {
-  width: 33%;
-}
-/*more specific takes precedent*/
-a {
-  text-decoration: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
-nav a {
-  text-decoration: line-through;
+nav {
+  background-color: aliceblue;
+  padding: 3rem;
 }
 
-/*more recent takes precedent*/
-p {
-  color: magenta;
-}
-/*some bogus comments*/
-p {
-  color: red;
+footer {
+  border-top: 2px;
 }
